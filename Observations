@@ -1,0 +1,6 @@
+I have used the CIFAR-10 dataset to implement the Dropout regularization.
+First I have trained the model without applying Dropout and we obtain Training accuracy of 100% and Testing accuracy of only 69.9%. This clearly shows that our model is overfitting.
+Then I have trained the model by applying dropout technique with dropout rate of 0.5 and we get improved Testing accuracy of 73.1%. 
+Even though the Training accuracy has reduced to 82.8% but what is more important is to obtain correct results during the validation which is achieved by implementing the model with dropout technique.
+I have considered 55 epochs and Validation split of 20%.
+Finally I have plotted the both the graphs(with Dropout and without Dropout) to observe the Training accuracy and Testing accuracy after each epoch.
